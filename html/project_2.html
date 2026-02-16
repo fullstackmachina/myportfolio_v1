@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 2 - data pagination and filtering</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="my-info">
+      <div class="sidebar-info-box">
+        <br />
+        <div class="thumbnail-box">
+          <img
+            class="thumbnail"
+            src="https://placehold.it/550x350"
+            alt="Profile Pic"
+          />
+        </div>
+        <div class="dev-intro-box">
+          <h5>Roxanne Perron</h5>
+          <p>
+            Fullstack developer in training and passionate about building clean,
+            responsive, and user-friendly web applications. Currently completing
+            the Treehouse Full-Stack JavaScript Techdegree and actively
+            developing real-world projects to strengthen my JavaScript and OOP
+            skills.
+          </p>
+          <a href="../html/about.html">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-info-box">
+          <button
+            class="menu-icon"
+            id="menu-icon"
+            type="button"
+            data-toggle="my-info"
+          ></button>
+          <span>Roxanne Perron</span>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html"><span>&larr;</span> Back</a>
+      </nav>
+
+      <article class="portfolio-projects">
+        <div class="inner-wrapper flex-row-wrap two-col">
+          <div class="project-info-box box">
+            <h1>Data pagination and filtering</h1>
+            <p>
+              This project displays a list of students with client-side
+              pagination and dynamic search filtering. It demonstrates the
+              ability to manipulate the DOM, handle user input events, and
+              efficiently work with arrays of objects to update the interface in
+              real time using vanilla JavaScript. The project emphasizes
+              performance, usability, and clean code structure.
+            </p>
+          </div>
+          <div class="project-tech-links-box box">
+            <h6>Technologies</h6>
+            <ul>
+              <li>Semantic HTML5</li>
+              <li>Responsive CSS</li>
+              <li>JavaScript (ES6)</li>
+              <li>DOM Manipulation</li>
+              <li>Event Handling</li>
+            </ul>
+
+            <a
+              class="btn-link"
+              href="https://fullstackmachina.github.io/unit02_data_pagination_and_filtering/
+"
+              target="_blank"
+              >Live Demo</a
+            >
+            <a
+              class="btn-link"
+              href="https://github.com/fullstackmachina/unit02_data_pagination_and_filtering"
+              target="_blank"
+              >GitHub Repo</a
+            >
+          </div>
+        </div>
+        <div class="project-img-box box">
+          <img
+            class="project-img"
+            src="../images/preview_project2.png"
+            alt="Screen capture of project"
+          />
+        </div>
+        <nav class="nav">
+          <a href="index.html"><span>&larr;</span> Back</a>
+        </nav>
+      </article>
+    </div>
+
+    <script src="../app.js"></script>
+  </body>
+</html>

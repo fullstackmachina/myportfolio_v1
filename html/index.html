@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hello World</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,400,400i,700,800"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/normalize.css" />
+    <link rel="stylesheet" href="../styles/style.css" />
+  </head>
+  <body>
+    <div class="sidebar" id="my-info">
+      <div class="sidebar-info-box">
+        <br />
+        <div class="thumbnail-box">
+          <img
+            class="thumbnail"
+            src="https://placehold.it/550x350"
+            alt="Profile Pic"
+          />
+        </div>
+        <div class="dev-intro-box">
+          <h5>Roxanne Perron</h5>
+          <p>
+            Fullstack developer in training and passionate about building clean,
+            responsive, and user-friendly web applications. Currently completing
+            the Treehouse Full-Stack JavaScript Techdegree and actively
+            developing real-world projects to strengthen my JavaScript and OOP
+            skills.
+          </p>
+          <a href="../html/about.html">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="header">
+        <div class="header-info-box">
+          <button
+            class="menu-icon"
+            id="menu-icon"
+            type="button"
+            data-toggle="my-info"
+          ></button>
+          <span>Roxanne Perron</span>
+        </div>
+      </div>
+
+      <article class="portfolio-intro">
+        <h1>Hello World!</h1>
+        <p>
+          Every developer starts with “Hello World.” This is Version 1 of my
+          portfolio — a foundation that showcases the projects marking my
+          progression in JavaScript development, from dynamic DOM interactions
+          to structured object-oriented applications. Each project represents
+          growth, practice, and continuous improvement.
+        </p>
+      </article>
+
+      <article class="portfolio-project-thumbs">
+        <div class="projects-box box grid">
+          <div class="cell">
+            <a href="../html/project_1.html">
+              <img
+                class="thumbnail"
+                src="../images/preview_project1.png"
+                alt="Thumbnail of project"
+              />
+              <h5>Random quotes generator</h5>
+            </a>
+          </div>
+          <div class="cell">
+            <a href="../html/project_2.html">
+              <img
+                class="thumbnail"
+                src="../images/preview_project2.png"
+                alt="Thumbnail of project"
+              />
+              <h5>Data pagination and filtering</h5>
+            </a>
+          </div>
+          <div class="cell">
+            <a href="../html/project_3.html">
+              <img
+                class="thumbnail"
+                src="../images/preview_project3.png"
+                alt="Thumbnail of project"
+              />
+              <h5>Interactive form</h5>
+            </a>
+          </div>
+          <div class="cell">
+            <a href="../html/project_4.html">
+              <img
+                class="thumbnail"
+                src="https://placehold.it/550x550"
+                alt="Thumbnail of project"
+              />
+              <h5>OOP Game</h5>
+            </a>
+          </div>
+          <div class="cell">
+            <a href="../html/project_5.html">
+              <img
+                class="thumbnail"
+                src="https://placehold.it/550x550"
+                alt="Thumbnail of project"
+              />
+              <h5>TITLE</h5>
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <script src="../app.js"></script>
+  </body>
+</html>
