@@ -264,6 +264,82 @@ nav a span {
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
 
+/* Releases */
+/* Releases */
+.releases-section {
+  padding: 4rem 1.5rem;
+}
+
+.releases-section .container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.releases-section h2 {
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.releases-intro {
+  max-width: 700px;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.release-card {
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.release-version h3 {
+  margin: 0 0 0.5rem;
+  color: #111;
+}
+
+.release-version span {
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.release-content h4 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: #222;
+}
+
+.release-content p {
+  margin-bottom: 0.75rem;
+  line-height: 1.6;
+}
+
+.release-content ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.release-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.surprise-release {
+  border-style: dashed;
+}
+
+@media (max-width: 768px) {
+  .release-card {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* 
   About and project pages styles 
 */
