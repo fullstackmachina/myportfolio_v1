@@ -270,6 +270,15 @@ nav a span {
   padding: 4rem 1.5rem;
 }
 
+.release-section-title {
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
 .releases-section .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -305,10 +314,14 @@ nav a span {
 }
 
 .release-version span {
-  font-size: 0.95rem;
-  color: #666;
+  font-size: 0.9rem;
+  color: #999;
 }
 
+.released {
+  color: #3cb371;
+  font-weight: 600;
+}
 .release-content h4 {
   margin-top: 0;
   margin-bottom: 0.75rem;
